@@ -18,7 +18,7 @@
 #include "configfile.h"
 #include "connectionvalidator.h"
 #include "creds/abstractcredentials.h"
-#include "e2efoldermanager.h"
+#include "e2eefoldermanager.h"
 #include "editlocallymanager.h"
 #include "folder.h"
 #include "folderman.h"
