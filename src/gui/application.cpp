@@ -505,8 +505,7 @@ void Application::setupAccountsAndFolders()
     const auto foldersListSize = FolderMan::instance()->setupFolders();
     FolderMan::instance()->setSyncEnabled(true);
 
-    // Initialize E2E folder restoration manager
-    E2EFolderManager::instance()->initialize();
+    E2EFolderManager::instance();
 
     const auto prettyNamesList = [](const QList<AccountStatePtr> &accounts) {
         QStringList list;
